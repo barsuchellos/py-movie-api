@@ -17,3 +17,4 @@ class MovieSerializers(serializers.Serializer):
         instance.description = validate_data["description"]
         instance.duration = validate_data["duration"]
         return instance
+
